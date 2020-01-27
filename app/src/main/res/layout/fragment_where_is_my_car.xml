@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.akwares.park_it.fragments.SavedParkings">
+
+
+    <LinearLayout
+        android:id="@+id/locationEnabler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="3"
+        android:background="@color/darkGray"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:gravity="left|center"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:text="@string/enaLocAuthBar"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/enaAuthLoc"
+            android:background="@color/materialBlue"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:textColor="@color/white"
+            android:text="@string/allow"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/emptyWarningIMG"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/emptywarning"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/emptyWarningTXT"
+        android:layout_below="@id/emptyWarningIMG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/noPosSaved"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/locationEnabler"
+        android:backgroundTint="@color/background"
+        android:id="@+id/recycler_my_car_pos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addNewPos"
+            app:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/caropt_white"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+        <ProgressBar
+            android:id="@+id/locatingPBar"
+            android:indeterminate="true"
+            android:theme="@style/AppTheme.WhiteAccent"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

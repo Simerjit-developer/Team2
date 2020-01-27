@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CarPosCard"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightTeal">
+
+        <RelativeLayout
+            android:id="@+id/firstpart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/address"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/carPosAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:gravity="left|center"
+                android:layout_alignBaseline="@id/textView7"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_below="@id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/dateCarPos"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignBaseline="@id/textView20"
+                android:gravity="left|center"
+                android:textSize="12sp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/carPosAddress"
+                android:layout_toEndOf="@id/textView20"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:textStyle="bold"
+                android:layout_below="@id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="16dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="@string/notes" />
+
+            <TextView
+                android:id="@+id/notesCarPos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_alignBaseline="@id/textView21"
+                android:gravity="left|center"
+                android:textSize="13sp"
+                android:layout_below="@id/dateCarPos"
+                android:layout_toEndOf="@id/textView21"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:layout_below="@id/firstpart"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/removeCarPos"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/Red"
+                android:text="@string/remove"
+                android:textColor="@color/white"/>
+
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/takeMeToCar"
+                android:background="@color/colorPrimary"
+                android:text="@string/takeme"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

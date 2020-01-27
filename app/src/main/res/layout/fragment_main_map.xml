@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.akwares.park_it.fragments.MapMain">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoPanelHeight="95dp"
+        sothree:umanoShadowHeight="4dp"
+        sothree:umanoParallaxOffset="20dp"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoOverlay="true"
+        sothree:umanoScrollableView="@+id/recyclerPlaces">
+
+        <!-- MAIN CONTENT -->
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:fitsSystemWindows="false">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/mainMapScroll"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="50dp"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/map_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="35dp">
+
+                        <com.google.android.gms.maps.MapView
+                            android:id="@+id/mapView"
+                            android:layout_marginBottom="35dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                        <ImageView
+                            android:id="@+id/transparent_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@color/transparent" />
+
+                    </RelativeLayout>
+
+
+
+                    <Button
+                        android:id="@+id/btnCheck"
+                        android:theme="@style/materialBlueButton"
+                        android:text="@string/check"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/checkBtnDim"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="50dp"
+                        android:layout_centerHorizontal="true" />
+
+                </FrameLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                >
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:src="@drawable/filter"
+                    app:backgroundTint="@color/Orange"
+                    app:borderWidth="0dp" />
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/filter">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+                        android:id="@+id/locateme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/locateme"
+                        app:backgroundTint="@color/colorPrimary"
+                        app:borderWidth="0dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressCircle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:indeterminate="true"
+                        android:theme="@style/AppTheme.WhiteAccent" />
+
+
+                </FrameLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <!-- SLIDING LAYOUT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="false"
+            android:id="@+id/dragView">
+
+            <ImageView
+                android:id="@+id/Slideup_accent"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_up_arrow"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/noResImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgErr"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_no_parking"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:layout_below="@id/imgErr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:text="@string/noResMSG"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:textSize="17dp"
+                        />
+
+                </RelativeLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:paddingTop="20dp"
+                    android:backgroundTint="@color/background"
+                    android:id="@+id/recyclerPlaces"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:floatingSearch_searchBarMarginLeft="15dp"
+        app:floatingSearch_searchBarMarginTop="53dp"
+        app:floatingSearch_searchBarMarginRight="15dp"
+        app:floatingSearch_searchHint="@string/hint_Search"
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:floatingSearch_leftActionMode="showHamburger"
+        app:floatingSearch_showMenuAction="@menu/activity_main_container_drawer"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true">
+    </com.arlib.floatingsearchview.FloatingSearchView>
+
+</RelativeLayout>

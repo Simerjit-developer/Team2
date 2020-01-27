@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Auto generated -->
+    <string name="app_name" translatable="false">Park-it</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_map_filters__layout" translatable="false">mapFilters_Layout</string>
+    <string name="title_activity_filters__layout">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_main__layout" translatable="false">main_Layout</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <!-- END Auto generated -->
+
+    <!-- Responses -->
+    <string name="positive">Yes</string>
+    <string name="negative" translatable="false">No</string>
+    <!-- END Responses -->
+
+    <!-- ADS -->
+    <string name="adUnit" translatable="false">ca-app-pub-4639139277618611/4597684471</string>
+    <string name="appAdsId" translatable="false">ca-app-pub-4639139277618611~3839582710</string>
+    <!-- END ADS -->
+
+    <!-- Adapters -->
+    <string name="resNr">Results:</string>
+    <!-- END adapters -->
+
+    <!--  errors  -->
+    <string name="err_nomoreuser">Something went wrong, please login in</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_alphanumericCh">Use only alphanumeric chars</string>
+    <string name="err_logout">Cannot log out. please retry</string>
+    <string name="err_name">Use only letters and spaces</string>
+    <string name="err_noConn">Internet connection missing! please check</string>
+    <string name="err_generic">An error occured, please retry</string>
+    <string name="err_notAvvialable">Selected item is not avialable</string>
+    <string name="err_validAddrees">Please choose a valid address</string>
+    <string name="err_addressNotFound">No address found, choose another location</string>
+    <string name="err_ConnLoc">To use this service you must enable location detection</string>
+    <string name="err_LocTimeout">Location request timed out, please retry</string>
+    <string name="err_usernameLenght">Username must be between 6 and 20 letters</string>
+    <string name="err_passwordLenght">Password must be between 6 and 20 letters</string>
+    <string name="err_nameLenght">Name must be between 3 and 20 letters</string>
+    <string name="err_cantRemParkingPLace">You cannot remove this!</string>
+    <!--  END errors  -->
+
+    <!--  hints  -->
+    <string name="hint_username" translatable="false">Username</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="hint_surname">Your Surname</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_Search">Search an address</string>
+    <string name="hint_switchConnLoc">Please allow location to use this service</string>
+    <string name="hint_highAccuracy">Please set High accuracy</string>
+    <!--  END hints  -->
+
+    <!--  PREFERENCES USER -->
+    <string name="KEY_PARKINGS_IDS" translatable="false">true</string>
+    <string name="parkingPREF_NAME" translatable="false">Prak_PARKprefs</string>
+    <!-- END PREFERENCES -->
+
+    <!--  PREFERENCES USER -->
+    <string name="KEY_USERNAME" translatable="false">username</string>
+    <string name="KEY_EMAIL" translatable="false">email</string>
+    <string name="KEY_PASSWORD" translatable="false">password</string>
+    <string name="KEY_NAME" translatable="false">name</string>
+    <string name="KEY_MARK_LOG_IN" translatable="false">true</string>
+    <string name="userPREF_NAME" translatable="false">Prak_USERprefs</string>
+    <!-- END PREFERENCES -->
+
+
+    <!--  PREFERENCES LOCATIONS -->
+    <string name="KEY_LAST_LOCATED" translatable="false">0,0</string>
+    <string name="KEY_LAST_SEARCHED" translatable="false">0,0</string>
+    <string name="KEY_LL_DATE" translatable="false">000</string>
+    <string name="KEY_LS_DATE" translatable="false">000</string>
+    <string name="locationPREF_NAME" translatable="false">Prak_LOCATIONprefs</string>
+    <!-- END PREFERENCES -->
+
+    <!--  PREFERENCES Car Position -->
+    <string name="KEY_POSITIONS" translatable="false"></string>
+    <string name="KEY_POSITION_DATES" translatable="false"></string>
+    <string name="carPositionPREF_NAME" translatable="false">Prak_CarPositionPrefs</string>
+    <!-- END PREFERENCES -->
+
+    <!--  PREFERENCES SAVEDPLACESTYPE -->
+    <string name="KEY_PLACES_TYPE" translatable="false">placeType</string>
+    <string name="KEY_RADIUS" translatable="false">500</string>
+    <string name="placeTypePREF_NAME" translatable="false">Prak_PLACETYPEprefs</string>
+    <!-- END PREFERENCES -->
+
+    <!-- Buttons -->
+    <string name="next">Next</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="check">Check</string>
+    <!-- END Buttons -->
+
+    <!-- PArking card -->
+    <string name="type">Type: </string>
+    <string name="address">"Address:  "</string>
+    <string name="approxDist">Approx. distance: </string>
+    <!-- END -->
+
+    <!--  Loading  -->
+    <string name="logging">Logging in! please wait...</string>
+    <string name="registering">Registring! please wait...</string>
+    <!--  END Loading  -->
+
+    <!-- About fragment -->
+    <string name="aboutText">PrAk-it is a registred {A|&lt;} product. The app uses the latest technologies to keep your data safe and healthy. In order to keep our users updated all the results are retrieved from Google Inc.\'s servers.</string>
+    <string name="logReq">Already have an account? </string>
+    <string name="registerReq">Create new account</string>
+    <!-- END About Fragment -->
+
+    <!-- Account fragment -->
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="sureDialog">Are you sure?</string>
+    <string name="unchPswHint">Password (Unchanged)</string>
+    <string name="updatingInfo">Updating, please wait...</string>
+    <string name="updatingInfosuccess">Information updated successfully</string>
+    <string name="err_samePSW">This must be same as new password</string>
+    <string name="PSWchanged">Password changed successfully!</string>
+    <string name="oldPSWerr">Something went wrong, check your old password</string>
+    <string name="samename_err">New name must be different then old one</string>
+    <string name="oldpwdeqnew">New password must be different then old one</string>
+    <string name="your_name">Your name:</string>
+    <string name="oldpswHINT">Current password:</string>
+    <string name="newpswHINT">New password:</string>
+    <string name="newRpswHINT">Retype new password:</string>
+    <!-- END Account Fragment -->
+
+    <!-- MAIN -->
+    <string name="successLogin">Succesfully logged in!</string>
+    <!-- END MAIN -->
+
+    <!-- MAP -->
+    <string name="checkToResHint">Check to see results</string>
+    <string name="noResSlide">No parking found</string>
+    <string name="openGPS">Do you want open GPS setting?</string>
+    <string name="selectLoc">Please select a location</string>
+    <string name="noResMSG">No parking found, try changing preferred parking parameters</string>
+    <string name="retrivingPK">Retrieving parkings... please wait!</string>
+    <!-- END MAP -->
+
+    <!-- Saved Parkings -->
+    <string name="noPks">No saved parkings found!</string>
+    <string name="approxDistNA">Approx. distance: N/N</string>
+    <!-- END SavedParking -->
+
+    <!-- Common class -->
+    <string name="warning_title">Attention!</string>
+    <string name="positive_respose" translatable="false">OK</string>
+    <!-- END Common class -->
+
+    <!-- NAvigation sidebar -->
+    <string name="mapOpt">Map</string>
+    <string name="savedParkingOpt">Saved parkings</string>
+    <string name="carOpt">Find my car</string>
+    <string name="titleSettings">Settings</string>
+    <string name="accountOpt" translatable="false">Account</string>
+    <string name="settingsOpt">Place settings</string>
+    <string name="titleExtra">Extra</string>
+    <string name="helpOpt">Help</string>
+    <string name="aboutOpt">About Park-it</string>
+    <!-- END NAvigation sidebar -->
+
+    <!-- Localization -->
+    <string name="REQ_UNIQUE_CODE" translatable="false">100</string>
+    <!-- END Localization -->
+
+    <!--  spinner -->
+    <string name="selectR">Area radius:</string>
+    <string name="radChanged">Radius changed succesfully</string>
+    <string-array name="circleRadius" translatable="false">
+        <item>100 m</item>
+        <item>500 m</item>
+    </string-array>
+    <!-- END spinner -->
+
+    <!--  OVER THE NET -->
+    <string name="HOST_FOR_PING" translatable="false">www.altervista.org</string>
+    <!-- END OVER THE NET -->
+
+    <!-- HELP -->
+    <string name="rateME">Rate us</string>
+    <string name="secDescription">In this section you will find all the common questions and the relative answers</string>
+    <!-- END HELP -->
+
+    <!-- Questions -->
+    <string name="Q1"><b>How to find parking near me?</b></string>
+    <string name="Q2"><b>How to enable my location?</b></string>
+    <string name="Q3"><b>Location detection not working?</b></string>
+    <string name="Q4"><b>How to add new parkings as favorited?</b></string>
+    <string name="Q5"><b>How to get direction from my position to a parking option?</b></string>
+    <string name="Q6"><b>Direction option does not appear</b></string>
+
+    <!-- END Questions -->
+
+    <!-- Answers -->
+    <string name="Ans1">  1) Enable your location detection
+                          \n2) Go int MAP section from drawer
+                          \n3) Hit the marker button on your right
+                          \n4) Wait until it detects
+                          \n5) Click on Check</string>
+
+    <string name="Ans2">  1) Go to settings
+                          \n2) Look for Location
+                          \n3) Enable it
+                          \n4) Set high accuracy</string>
+
+    <string name="Ans3">Firstly check if your location detection is enabled, then set mode to High accuracy</string>
+    <string name="Ans4">Once you search parking around your place just hit the star on right side</string>
+    <string name="Ans5">Just click on the marker and a google map action button will apper on the right side click on the direction option.</string>
+    <string name="Ans6">If you already clicked the marker on the map and still not finding direction button, collapse the panel</string>
+
+
+    <!-- END Answers -->
+
+    <!-- APPINTRO -->
+    <string name="D1">Your personal assistant for parking</string>
+    <string name="D2">Put the marker where ever you want to search parking!</string>
+    <string name="D3">Check and find your parking place. Click on the google map direction option to get the fastest path</string>
+    <string name="D4">Use the search bar to find a location easily</string>
+    <string name="D5">Save your favorite location (Will be suggested you firstly)</string>
+    <string name="D6">Choose what kind of places you want to be suggested</string>
+    <!-- END APPINTRO -->
+
+    <!-- Handlers -->
+    <string name="cod_0" translatable="false">Done</string>
+    <string name="cod_1" translatable="false">not Done</string>
+    <string name="cod_100" translatable="false">not connected</string>
+    <string name="cod_101" translatable="false">Dialog dismiss</string>
+    <string name="cod_102" translatable="false">error occured</string>
+    <string name="cod_103" translatable="false">no place found</string>
+    <!-- END Handlers -->
+
+    <!-- Alerts -->
+    <string name="alt_success" translatable="false">Success</string>
+    <string name="alt_error">Error</string>
+    <string name="alt_info">Info</string>
+    <!-- END -->
+
+    <!-- Places Type for map -->
+    <string name="airport" translatable="false">airport</string>
+    <string name="train_station" translatable="false">train_station</string>
+    <string name="school" translatable="false">school</string>
+    <string name="parking" translatable="false">parking</string>
+    <string name="post_office" translatable="false">post_office</string>
+    <string name="church" translatable="false">church</string>
+    <string name="museum" translatable="false">museum</string>
+    <string name="department_store" translatable="false">department_store</string>
+    <string name="hospital" translatable="false">hospital</string>
+    <string name="stadium" translatable="false">stadium</string>
+    <string name="shopping_mall" translatable="false">shopping_mall</string>
+    <!-- END Places Type -->
+
+    <!-- Places Type for map -->
+    <string name="airport_T">Airport</string>
+    <string name="train_station_T">Train station</string>
+    <string name="school_T">School</string>
+    <string name="parking_T">Parking</string>
+    <string name="post_office_T">Post office</string>
+    <string name="church_T">Church</string>
+    <string name="museum_T">Museum</string>
+    <string name="department_store_T">Department store</string>
+    <string name="hospital_T">Hospital</string>
+    <string name="stadium_T">Stadium</string>
+    <string name="shopping_mall_T">Shopping mall</string>
+    <!-- END Places Type -->
+
+    <!-- MSG from web -->
+    <string name="msg_1">An error occured</string>
+    <string name="msg_2">A new parking has been added</string>
+    <string name="msg_3">No saved parking found</string>
+    <string name="msg_4">Parkings found are below</string>
+    <string name="msg_5">A parking has been removed successfully</string>
+    <string name="msg_6">A place has been added</string>
+    <string name="msg_7">A place has been removed successfully</string>
+    <string name="msg_8">Username too short</string>
+    <string name="msg_9">Incorrect username</string>
+    <string name="msg_10">Password incorrect</string>
+    <string name="msg_11">Check username again</string>
+    <string name="msg_12">Use a real name</string>
+    <string name="msg_13">Email address is not valid</string>
+    <string name="msg_14">Email already used</string>
+    <string name="msg_15">Username already taken</string>
+    <string name="msg_16">Registration failed, please retry</string>
+    <string name="msg_17">Incorrect old password</string>
+    <string name="msg_18">Account not activated</string>
+    <!-- END -->
+
+
+    <!-- About Fragment -->
+    <string name="contactAdmin">Help center</string>
+    <string name="support">Support</string>
+    <string name="terms">Terms and conditions</string>
+    <string name="adminEmail" translatable="false">deltaprak@gmail.com</string>
+    <string name="adminEmailSubject" translatable="false">PrAk-it</string>
+
+    <!--end About Fragment -->
+
+    <string name="acceptTerms">I accept the <u>terms and conditions</u></string>
+    <string name="termsDialog">In order to proceed with the registration you must accept our privacy policy and terms.</string>
+
+    <!--********************************* OTHER SHIT *****************************************-->
+    <!-- Strings related to Settings -->
+
+    <!-- Find car -->
+    <string name="noPosSaved">No car postion saved!</string>
+
+    <!-- AD CAR PLACE -->
+    <string name="addDialog">Do you want to add this place as your car parking?
+                                \n\nYou can add some notes below!</string>
+
+    <string name="enaLocAuthBar">Allow location access?</string>
+    <string name="allow">Allow</string>
+    <string name="cancBtnDialog">Cancel</string>
+    <string name="routing">Tracing route please wait...</string>
+    <string name="addBtnDialog">Add</string>
+    <string name="notesHint">Additional notes (optional)</string>
+
+    <string name="date">Parked on: </string>
+    <string name="notes">Notes:</string>
+
+    <string name="remove">Remove</string>
+    <string name="takeme">Take me</string>
+    <string name="rateme">Rate Park-it</string>
+    <string name="update_dialog">This version of Park-it is obsolete, you must update to the latest version to continue</string>
+    <string name="update_now">Update now</string>
+    <string name="update_later">Not now</string>
+    <string name="open_chat" translatable="false">ChatBot</string>
+    <string name="txt_assistant_title">Ask me Anything!</string>
+    <string name="title_activity_main_container">MainContainer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

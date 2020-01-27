@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="materialBlue">#2196f3</color>
+    <color name="indigo">#1976d2</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Red"> #f44336</color>
+    <color name="Orange"> #ef6c00</color>
+    <color name="transpRed">#4DF44336</color>
+    <color name="lightTeal">#b2dfdb</color>
+    <color name="darkGray">#90a4ae</color>
+    <color name="materialGreen">#43A047</color>
+    <color name="materialGreenDark">#388E3C</color>
+
+    <color name="darkBar">#80FFFFFF</color>
+
+    <color name="questionGreen">#B2DFDB</color>
+</resources>

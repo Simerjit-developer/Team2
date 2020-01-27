@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akwares.park_it.fragments.About">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:paddingTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutText"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#e0e0e0"
+        android:layout_alignBottom="@+id/terms"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="left|center"
+        android:textAllCaps="true"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/support"
+        />
+
+    <View
+        android:id="@+id/underlineSupport"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="#e0e0e0"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/contactMe"
+        android:paddingLeft="40dp"
+        android:gravity="left|center"
+        android:layout_below="@+id/underlineSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@drawable/noshadow_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/contactAdmin" />
+
+    <Button
+
+        android:id="@+id/rateme"
+        android:paddingLeft="40dp"
+        android:gravity="left|center"
+        android:layout_below="@+id/contactMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@drawable/noshadow_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rateme" />
+
+    <Button
+        android:id="@+id/terms"
+        android:paddingLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:background="@drawable/noshadow_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/rateme"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="@string/terms" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/mapOpt"
+            android:icon="@drawable/mapopt"
+            android:title="@string/mapOpt"
+            android:layout_gravity="center"
+            />
+        <item
+            android:id="@+id/savedParkingOpt"
+            android:icon="@drawable/savedparkingopt"
+            android:title="@string/savedParkingOpt"
+            android:layout_gravity="center"
+            />
+
+        <item
+            android:id="@+id/carOpt"
+            android:icon="@drawable/caropt"
+            android:title="@string/carOpt"
+            android:layout_gravity="center"
+            />
+    </group>
+
+    <item android:title="@string/titleSettings">
+        <menu>
+            <item
+                android:id="@+id/accountOpt"
+                android:icon="@drawable/accountopt"
+                android:title="@string/accountOpt"
+                android:layout_gravity="center"
+                />
+            <item
+                android:id="@+id/settingsOpt"
+                android:icon="@drawable/filter"
+                android:title="@string/settingsOpt"
+                android:layout_gravity="center"
+                />
+        </menu>
+    </item>
+
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/helpOpt"
+            android:icon="@drawable/helpopt"
+            android:title="@string/helpOpt"
+            android:layout_gravity="center"
+            />
+        <item
+            android:id="@+id/aboutOpt"
+            android:icon="@drawable/aboutopt"
+            android:title="@string/aboutOpt"
+            android:layout_gravity="center"
+            />
+    </group>
+
+</menu>

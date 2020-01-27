@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.akwares.prak_it.activities.AboutMain">
+    <TextView
+        android:theme="@style/appTitle"
+        android:text="@string/app_name"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/appName"
+        android:textColor="@color/white"
+        android:focusable="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:shadowColor="#A8A8A8">
+
+
+        <ImageView
+            android:id="@+id/bckgrndImageView6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:src="@drawable/iconplain" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:layout_below="@id/bckgrndImageView6"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/D1"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/lightTeal"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="120dp">
+        <Button
+            android:theme="@style/materialBlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:id="@+id/buttonReg"
+            android:enabled="true"
+            android:onClick="RegActivity"
+            android:layout_above="@+id/footer"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <LinearLayout
+            android:id="@id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            >
+
+            <TextView
+                android:text="@string/logReq"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="@string/login"
+                android:onClick="logActivity"
+                android:id="@+id/buttonLog"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColor="@color/Red" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
