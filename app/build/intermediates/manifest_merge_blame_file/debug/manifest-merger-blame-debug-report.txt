@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.akwares.park_it"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:5:5-7:47
+12        android:name="com.myapp.android.locationapi.maps.permission.MAPS_RECEIVE"
+12-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:6:9-82
+13        android:protectionLevel="signature" />
+13-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:7:9-44
+14
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:11:5-79
+17-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:12:5-81
+18-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:13:5-76
+19-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:14:22-78
+21
+22    <uses-feature android:name="android.hardware.location.gps" />
+22-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:16:5-66
+22-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:16:19-63
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:18:5-76:19
+28        android:allowBackup="true"
+28-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:19:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:20:9-43
+32        android:label="@string/app_name"
+32-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:21:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:22:9-54
+34        android:supportsRtl="true"
+34-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:24:9-35
+35        android:theme="@style/AppTheme"
+35-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:25:9-40
+36        android:usesCleartextTraffic="true" >
+36-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:23:9-44
+37        <activity android:name="com.akwares.park_it.activities.ActivateAccountActivity" />
+37-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:26:9-81
+37-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:26:19-69
+38        <activity android:name="com.akwares.park_it.activities.BotActivity" /> <!-- Services -->
+38-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:27:9-60
+38-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:27:19-57
+39
+40        <activity
+40-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:30:9-33:54
+41            android:name="com.akwares.park_it.activities.MainContainer"
+41-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:31:13-53
+42            android:screenOrientation="portrait"
+42-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:32:13-49
+43            android:theme="@style/noTitleBar_dark" />
+43-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:33:13-51
+44        <activity
+44-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:34:9-37:55
+45            android:name="com.akwares.park_it.activities.AboutMain"
+45-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:35:13-49
+46            android:screenOrientation="portrait"
+46-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:36:13-49
+47            android:theme="@style/noTitleBar_lucid" />
+47-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:37:13-52
+48        <activity
+48-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:38:9-41:55
+49            android:name="com.akwares.park_it.activities.Login"
+49-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:39:13-45
+50            android:screenOrientation="portrait"
+50-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:40:13-49
+51            android:theme="@style/noTitleBar_lucid" />
+51-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:41:13-52
+52        <activity
+52-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:42:9-45:55
+53            android:name="com.akwares.park_it.activities.RegisterPage1"
+53-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:43:13-53
+54            android:screenOrientation="portrait"
+54-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:44:13-49
+55            android:theme="@style/noTitleBar_lucid" />
+55-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:45:13-52
+56        <activity
+56-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:46:9-48:54
+57            android:name="com.akwares.park_it.activities.AboutLoadIntro"
+57-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:47:13-54
+58            android:theme="@style/noTitleBar_dark" />
+58-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:48:13-51
+59        <activity
+59-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:49:9-51:47
+60            android:name="com.akwares.park_it.activities.Terms"
+60-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:50:13-45
+61            android:theme="@style/AppTheme" />
+61-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:51:13-44
+62        <activity
+62-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:52:9-60:20
+63            android:name="com.akwares.park_it.activities.MainLoad"
+63-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:53:13-48
+64            android:theme="@style/SplashTheme" >
+64-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:54:13-47
+65            <intent-filter>
+65-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:55:13-59:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:56:17-69
+66-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:56:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:58:17-77
+68-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:58:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:61:9-64:55
+72            android:name="com.akwares.park_it.activities.RegisterPage2"
+72-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:62:13-53
+73            android:screenOrientation="portrait"
+73-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:63:13-49
+74            android:theme="@style/noTitleBar_lucid" />
+74-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:64:13-52
+75        <activity
+75-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:65:9-68:47
+76            android:name="com.akwares.park_it.activities.SettingsActivity"
+76-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:66:13-56
+77            android:screenOrientation="portrait"
+77-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:67:13-49
+78            android:theme="@style/AppTheme" />
+78-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:68:13-44
+79        <activity
+79-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:69:9-72:47
+80            android:name="com.akwares.park_it.activities.ChangePassword"
+80-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:70:13-54
+81            android:screenOrientation="portrait"
+81-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:71:13-49
+82            android:theme="@style/AppTheme" />
+82-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:72:13-44
+83
+84        <meta-data
+84-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:73:9-75:55
+85            android:name="com.google.android.geo.API_KEY"
+85-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:74:13-58
+86            android:value="@string/google_maps_key" />
+86-->/Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:75:13-52
+87        <!-- This is just an Activity for Testing from within src/androidTest -->
+88        <activity
+88-->[com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:15:9-17:59
+89            android:name="com.tapadoo.android.MockActivity"
+89-->[com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:16:13-60
+90            android:theme="@style/Base.Theme.AppCompat" />
+90-->[com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:17:13-56
+91        <activity
+91-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:14:9-20:20
+92            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+92-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:15:13-91
+93            android:exported="false"
+93-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:16:13-37
+94            android:label="@string/places_autocomplete_label"
+94-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:17:13-62
+95            android:theme="@style/PlacesAutocompleteOverlay"
+95-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:18:13-61
+96            android:windowSoftInputMode="adjustResize" >
+96-->[com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:19:13-55
+97        </activity> <!-- Needs to be explicitly declared on P+ -->
+98        <uses-library
+98-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+99            android:name="org.apache.http.legacy"
+99-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+100            android:required="false" />
+100-->[com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+110
+111        <provider
+111-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+112            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+113            android:authorities="com.akwares.park_it.lifecycle-process"
+113-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+114            android:exported="false"
+114-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+115            android:multiprocess="true" />
+115-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+116    </application>
+117
+118</manifest>

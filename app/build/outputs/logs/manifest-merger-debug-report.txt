@@ -1,0 +1,494 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+MERGED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:2:1-20:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fdf0d7eaefb150f0307922b9e9bcbf0e/jetified-expandable-layout-1.6.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/28308ebca5e658e62cd43f451fda20cd/jetified-library-3.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.paolorotolo:appintro:4.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1799a3f4d12ae03123064312686a8c02/jetified-appintro-4.1.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/b74642ac7a06ed4a743681a1a9ee51af/jetified-volley-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/db1d86503a87af5a159d6380e317be87/jetified-circleimageview-1.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.androidadvance:topsnackbar:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d00178aae864bc0e1e8b6a975c51c17/jetified-topsnackbar-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.arimorty:floatingsearchview:2.0.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c0d20d3366be3b21dc2bb7b88ebb65c6/jetified-floatingsearchview-2.0.3/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.navigation:navigation-ui:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9a78ec59605d90d65f3d64011442f54a/jetified-navigation-ui-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f1cebdc10aad85ad813bf73df61f650f/play-services-places-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e84b607b1f3e139dacaf4115e1fbd370/jetified-viewpropertyobjectanimator-1.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c4f043e24927ac9fa6d1dc14af5e623b/navigation-fragment-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/cd2555db0203a9129fdeb1355c14dcc8/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1e0b3fde68e1605153cab3775f0b4184/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/dcda69aba665e4ef88212d91fa49c817/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2905ca591d95bf0e403f68a05d4ee4e5/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/7bf8a0898cb78896a0eefd4230c4f8b1/butterknife-runtime-10.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/0ccbfed15899faea82b0e6e4245cb3df/navigation-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/81491ed176d7b44252c7c1d730dd1a24/navigation-common-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:1-78:12
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:2:11-69
+permission#com.myapp.android.locationapi.maps.permission.MAPS_RECEIVE
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:6:9-82
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:13:5-76
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:14:22-78
+uses-feature#android.hardware.location.gps
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:16:19-63
+application
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:18:5-76:19
+MERGED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:12:5-18:19
+MERGED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:12:5-18:19
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fdf0d7eaefb150f0307922b9e9bcbf0e/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fdf0d7eaefb150f0307922b9e9bcbf0e/jetified-expandable-layout-1.6.0/AndroidManifest.xml:12:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/28308ebca5e658e62cd43f451fda20cd/jetified-library-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/28308ebca5e658e62cd43f451fda20cd/jetified-library-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.paolorotolo:appintro:4.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1799a3f4d12ae03123064312686a8c02/jetified-appintro-4.1.0/AndroidManifest.xml:12:5-20
+MERGED from [com.github.paolorotolo:appintro:4.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1799a3f4d12ae03123064312686a8c02/jetified-appintro-4.1.0/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.android.volley:volley:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/b74642ac7a06ed4a743681a1a9ee51af/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/b74642ac7a06ed4a743681a1a9ee51af/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/db1d86503a87af5a159d6380e317be87/jetified-circleimageview-1.3.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/db1d86503a87af5a159d6380e317be87/jetified-circleimageview-1.3.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.arimorty:floatingsearchview:2.0.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c0d20d3366be3b21dc2bb7b88ebb65c6/jetified-floatingsearchview-2.0.3/AndroidManifest.xml:12:5-20
+MERGED from [com.github.arimorty:floatingsearchview:2.0.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c0d20d3366be3b21dc2bb7b88ebb65c6/jetified-floatingsearchview-2.0.3/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f1cebdc10aad85ad813bf73df61f650f/play-services-places-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f1cebdc10aad85ad813bf73df61f650f/play-services-places-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/cd2555db0203a9129fdeb1355c14dcc8/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/cd2555db0203a9129fdeb1355c14dcc8/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1e0b3fde68e1605153cab3775f0b4184/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1e0b3fde68e1605153cab3775f0b4184/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/dcda69aba665e4ef88212d91fa49c817/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/dcda69aba665e4ef88212d91fa49c817/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2905ca591d95bf0e403f68a05d4ee4e5/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2905ca591d95bf0e403f68a05d4ee4e5/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:25:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:23:9-44
+activity#com.akwares.park_it.activities.ActivateAccountActivity
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:26:9-81
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:26:19-69
+activity#com.akwares.park_it.activities.BotActivity
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:27:9-60
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:27:19-57
+activity#com.akwares.park_it.activities.MainContainer
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:30:9-33:54
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:32:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:33:13-51
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:31:13-53
+activity#com.akwares.park_it.activities.AboutMain
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:34:9-37:55
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:36:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:37:13-52
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:35:13-49
+activity#com.akwares.park_it.activities.Login
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:38:9-41:55
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:40:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:41:13-52
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:39:13-45
+activity#com.akwares.park_it.activities.RegisterPage1
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:42:9-45:55
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:44:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:43:13-53
+activity#com.akwares.park_it.activities.AboutLoadIntro
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:46:9-48:54
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:48:13-51
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:47:13-54
+activity#com.akwares.park_it.activities.Terms
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:49:9-51:47
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:50:13-45
+activity#com.akwares.park_it.activities.MainLoad
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:52:9-60:20
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:54:13-47
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:53:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:58:27-74
+activity#com.akwares.park_it.activities.RegisterPage2
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:61:9-64:55
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:63:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:64:13-52
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:62:13-53
+activity#com.akwares.park_it.activities.SettingsActivity
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:65:9-68:47
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:67:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:66:13-56
+activity#com.akwares.park_it.activities.ChangePassword
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:69:9-72:47
+	android:screenOrientation
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:71:13-49
+	android:theme
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:72:13-44
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:70:13-54
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:73:9-75:55
+	android:value
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:75:13-52
+	android:name
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml:74:13-58
+uses-sdk
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+MERGED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:7:5-10:72
+MERGED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:7:5-10:72
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fdf0d7eaefb150f0307922b9e9bcbf0e/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fdf0d7eaefb150f0307922b9e9bcbf0e/jetified-expandable-layout-1.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/28308ebca5e658e62cd43f451fda20cd/jetified-library-3.4.0/AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/28308ebca5e658e62cd43f451fda20cd/jetified-library-3.4.0/AndroidManifest.xml:7:5-44
+MERGED from [com.github.paolorotolo:appintro:4.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1799a3f4d12ae03123064312686a8c02/jetified-appintro-4.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.paolorotolo:appintro:4.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1799a3f4d12ae03123064312686a8c02/jetified-appintro-4.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:7:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/b74642ac7a06ed4a743681a1a9ee51af/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/b74642ac7a06ed4a743681a1a9ee51af/jetified-volley-1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/db1d86503a87af5a159d6380e317be87/jetified-circleimageview-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/db1d86503a87af5a159d6380e317be87/jetified-circleimageview-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.androidadvance:topsnackbar:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d00178aae864bc0e1e8b6a975c51c17/jetified-topsnackbar-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidadvance:topsnackbar:1.1.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d00178aae864bc0e1e8b6a975c51c17/jetified-topsnackbar-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.arimorty:floatingsearchview:2.0.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c0d20d3366be3b21dc2bb7b88ebb65c6/jetified-floatingsearchview-2.0.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.arimorty:floatingsearchview:2.0.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c0d20d3366be3b21dc2bb7b88ebb65c6/jetified-floatingsearchview-2.0.3/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.navigation:navigation-ui:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9a78ec59605d90d65f3d64011442f54a/jetified-navigation-ui-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9a78ec59605d90d65f3d64011442f54a/jetified-navigation-ui-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4fe44ae24daa7cfa2dd483a5d3b65a2f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f1cebdc10aad85ad813bf73df61f650f/play-services-places-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f1cebdc10aad85ad813bf73df61f650f/play-services-places-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4db959bb99a793b29fc9e6cd81c48f85/butterknife-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e84b607b1f3e139dacaf4115e1fbd370/jetified-viewpropertyobjectanimator-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bartoszlipinski:viewpropertyobjectanimator:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e84b607b1f3e139dacaf4115e1fbd370/jetified-viewpropertyobjectanimator-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/062eb74c1a6fe650432564db4113c6b5/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c4f043e24927ac9fa6d1dc14af5e623b/navigation-fragment-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c4f043e24927ac9fa6d1dc14af5e623b/navigation-fragment-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/790f80b0a374f6f7b6b7fe370fefbffc/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3ec6fa8458ddbe732478393a9f9e6c77/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/cd2555db0203a9129fdeb1355c14dcc8/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/cd2555db0203a9129fdeb1355c14dcc8/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ec593f8d91037f6ef1bbcd6a177afa1c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/767612e54049c1347a891905a7e9d5e4/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4f8b5527496d67480951cc322460db7f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1e0b3fde68e1605153cab3775f0b4184/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/1e0b3fde68e1605153cab3775f0b4184/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/dcda69aba665e4ef88212d91fa49c817/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/dcda69aba665e4ef88212d91fa49c817/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2905ca591d95bf0e403f68a05d4ee4e5/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2905ca591d95bf0e403f68a05d4ee4e5/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/2b8a3547a6423f6fb15f19a78415dd89/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9533afcfb379d63fb97295e8fded06a/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d5e538a4cea89ded941d1fd55df7aafc/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ad7ca255c09497412a7a01f403ddd6c0/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/7bf8a0898cb78896a0eefd4230c4f8b1/butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] /Users/akwares/.gradle/caches/transforms-2/files-2.1/7bf8a0898cb78896a0eefd4230c4f8b1/butterknife-runtime-10.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/ddf6a25e6e3e5e2af441269b48288beb/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/00bc847ce5b9e3ce7b40d465bffbf9e9/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4932f7e67b26f042b51fa62f1aa4816d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8849109129fcb2f39779166fb64480b1/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5ad830c9e1047f79e3f0f7e9e42ab8ab/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3c457ded457b98b207b4f227d629399/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3d4a3c67e39fa8d6d0c0f126c28b81d8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/82b148795609bbbaf8e825fc2ff2a6bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/5276819c062a92c029464122749254f1/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/0ccbfed15899faea82b0e6e4245cb3df/navigation-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/0ccbfed15899faea82b0e6e4245cb3df/navigation-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/03b6edd881408c681ec3ca24f0393ef7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/81491ed176d7b44252c7c1d730dd1a24/navigation-common-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/81491ed176d7b44252c7c1d730dd1a24/navigation-common-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/d1ca7cd3905794bed09cb92934ccd6c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4276267baf989d651cf25177c247ad49/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/867e3d51a76e05895e9b3a3c44f084b7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a548e5d16bfd241ee3b8086d51bf6a56/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/9cfd916484f85a7c5046ca3963e5c069/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/e8fcc2415b8b0ba957b309bd060d0497/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/4cee4734b336f81c686d6e7b16dafec9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3819fb4fef2e012192b32762458ba145/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/8ede11fcab21498f1a0c92e4e5245cc2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/fb2fbe77879a57ea0c5dfd6fe59ba874/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a992d8307f21a8f15eb649383ba6a6a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/f582580d3eb247a74d915a27810a4674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/c75155371656c04dff3a027cdeb13e8a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/53b4a4cf87c0ff501a8c414cec884555/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/78be57497ca2a8dd090798c529f3e53d/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:10:9-69
+	android:targetSdkVersion
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		ADDED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/akwares/AndroidStudioProjects/Parkit/app/src/main/AndroidManifest.xml
+activity#com.tapadoo.android.MockActivity
+ADDED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:15:9-17:59
+	android:theme
+		ADDED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from [com.tapadoo.android:alerter:1.0.8] /Users/akwares/.gradle/caches/transforms-2/files-2.1/6c2b9c947e496f5bc57e031786cc932c/jetified-alerter-1.0.8/AndroidManifest.xml:16:13-60
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:14:9-20:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:17:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:18:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.1.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/30db04b164f043a6dcafa0b48cd8838a/places-2.1.0/AndroidManifest.xml:15:13-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/a3d702a77cbfacefb23de82416a0cb1f/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/3a1ad9245b34355a63b621e4c1b17030/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/akwares/.gradle/caches/transforms-2/files-2.1/58629c19fa6c616abd60edc0d2bb07b8/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
