@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settingRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akwares.park_it.fragments.Settings">
+
+    <ImageView
+        android:id="@+id/internalErrorIMG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:id="@+id/warningtxt"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <ProgressBar
+        android:id="@+id/pbar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:progressTint="@color/dark_gray"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/Red" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spinLinearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="25dp"
+            android:paddingRight="43dp"
+            android:id="@+id/btnSave"
+            android:theme="@style/materialGreenButton"
+            android:text="@string/selectR"/>
+
+
+        <Spinner
+            android:id="@+id/radSpinner"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:layout_gravity="end"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/spinLinearLayout"
+        android:backgroundTint="@color/background"
+        android:id="@+id/recyclerTypes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
