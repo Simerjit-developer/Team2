@@ -162,11 +162,6 @@
     <string name="mapOpt">Map</string>
     <string name="savedParkingOpt">Saved parkings</string>
     <string name="carOpt">Find my car</string>
-    <string name="titleSettings">Settings</string>
-    <string name="accountOpt" translatable="false">Account</string>
-    <string name="settingsOpt">Place settings</string>
-    <string name="titleExtra">Extra</string>
-    <string name="helpOpt">Help</string>
     <string name="aboutOpt">About Park-it</string>
     <!-- END NAvigation sidebar -->
 
@@ -193,10 +188,6 @@
     <!-- END HELP -->
 
     <!-- Questions -->
-    <string name="Q1"><b>How to find parking near me?</b></string>
-    <string name="Q2"><b>How to enable my location?</b></string>
-    <string name="Q3"><b>Location detection not working?</b></string>
-    <string name="Q4"><b>How to add new parkings as favorited?</b></string>
     <string name="Q5"><b>How to get direction from my position to a parking option?</b></string>
     <string name="Q6"><b>Direction option does not appear</b></string>
 
@@ -215,8 +206,6 @@
                           \n4) Set high accuracy</string>
 
     <string name="Ans3">Firstly check if your location detection is enabled, then set mode to High accuracy</string>
-    <string name="Ans4">Once you search parking around your place just hit the star on right side</string>
-    <string name="Ans5">Just click on the marker and a google map action button will apper on the right side click on the direction option.</string>
     <string name="Ans6">If you already clicked the marker on the map and still not finding direction button, collapse the panel</string>
 
 
@@ -232,10 +221,6 @@
     <!-- END APPINTRO -->
 
     <!-- Handlers -->
-    <string name="cod_0" translatable="false">Done</string>
-    <string name="cod_1" translatable="false">not Done</string>
-    <string name="cod_100" translatable="false">not connected</string>
-    <string name="cod_101" translatable="false">Dialog dismiss</string>
     <string name="cod_102" translatable="false">error occured</string>
     <string name="cod_103" translatable="false">no place found</string>
     <!-- END Handlers -->
@@ -253,9 +238,6 @@
     <string name="parking" translatable="false">parking</string>
     <string name="post_office" translatable="false">post_office</string>
     <string name="church" translatable="false">church</string>
-    <string name="museum" translatable="false">museum</string>
-    <string name="department_store" translatable="false">department_store</string>
-    <string name="hospital" translatable="false">hospital</string>
     <string name="stadium" translatable="false">stadium</string>
     <string name="shopping_mall" translatable="false">shopping_mall</string>
     <!-- END Places Type -->
